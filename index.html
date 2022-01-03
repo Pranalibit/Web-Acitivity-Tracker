@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- need to work -->
     <div id="preloader" class="preloader">
         <div class="preloader__image">
             <div class="title">Loading...</div>
@@ -24,13 +25,14 @@
       </filter>
    </svg>
     <div id="extensionTitle">
-        <p class="title">Track My Browsing!</p>
+        <p>Track My Browsing!</p>
     </div>
-    <div id="buttons" class="btn-block">
-        <a class="active" id="btnToday">Today</a>
-        <a id="btnAll">All-time</a>
-        <a id="btnByDays">By days</a>
-        <div id='hintForUsers' class="hint-for-settings hide">
+    <div id="buttons">
+        <a class="active square_btn" id="btnToday">Today</a>
+        <a id="btnAll" class="square_btn" >All-time</a>
+        <a id="btnByDays" class="square_btn" >By days</a>
+        <!-- <a id="btnByDays" class="square_btn">Settings</a> -->
+        <!-- <div id='hintForUsers' class="hint-for-settings hide">
             <div id='closeHintBtn' class="close-hint">✖</div>
             <p class="title-block">You can:</p>
             <p><span class="arrow">➤</span> enable dark mode</p>
@@ -39,7 +41,7 @@
             <p><span class="arrow">➤</span> set a list of sites with no tracking</p>
             <p><span class="arrow">➤</span> enable time tracking on youtube.com</p>
             <p><span class="arrow">➤</span> enable time tracking on Netflix.com</p>
-        </div>
+        </div> -->
     </div>
     <div id="stats" class="hide">
         <p class="table-header">Overall statistics</p>
@@ -96,7 +98,7 @@
             </div>
         </div>
     </div>
-    <div id="blockForChartBtn">
+    <div id="blockForChartBtn" style="margin-top: 15px;">
         <a class="button active chart-btn chart-btn-donut" id="donutChartBtn">Common chart</a>
         <a class="button chart-btn chart-btn-heatmap" id="heatMapChartBtn">Time chart</a>
     </div>

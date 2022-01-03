@@ -8,7 +8,9 @@ body {
 }
 
 #extensionTitle {
-    margin-top: -20px;
+    margin-top: -10px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .inline-flex {
@@ -169,6 +171,23 @@ input[type="date"] {
 .btn-block {
     width: 580px;
     margin-bottom: 5px;
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 7px #ff7c5c;
+    color: #ff7c5c;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    width: 140px;
+
+}
+.square_btn:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
 }
 
 .no-data {
@@ -468,10 +487,10 @@ input[type='checkbox'] {
     position: relative;
     top: 50%;
     left: 50%;
-    width: 64px;
+    width: 100px;
     height: 64px;
-    margin-top: -32px;
-    margin-left: -32px;
+    margin-top: -25px;
+    margin-left: -25px;
     background: url(/icons/preloader.svg) no-repeat 50% 50%;
 }
 
